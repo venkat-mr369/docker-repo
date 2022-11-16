@@ -35,7 +35,7 @@ docker run ubuntu cat /etc/*rele*
 docker run -d httpd
 
 #Container Name
-docker run -d --name sivahttpd httpd
+docker run -d --name venkathttpd httpd
 
 # To create a container with interactive mode 
 docker run -it centos bash
@@ -83,7 +83,7 @@ docker container logs <containerID>
 docker container run --rm <imagename>
 
 # setting a hostname to a container
-docker run -it --name sivaapp --hostname sivaspp ubuntu
+docker run -it --name venkatapp --hostname venkatspp ubuntu
 
 
 # Copying contents to and from Containers
