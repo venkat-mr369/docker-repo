@@ -97,7 +97,12 @@ docker exec -it <containeID> /bin/sh
 
 # To get Top containers
 docker container top <container_id>
-docker images
+
+# docker images
+
+docker search httpd
+
+docker search --filter is-official=true httpd
 
 docker rmi imagename
 
